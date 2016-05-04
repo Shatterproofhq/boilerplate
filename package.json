@@ -1,0 +1,32 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "Starter kit for Shatterproof web projects",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shatterproofhq/boilerplate.git"
+  },
+  "keywords": [
+    "sass",
+    "html",
+    "css",
+    "frontend",
+    "grid"
+  ],
+  "author": "Anthony Della Camera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shatterproofhq/boilerplate/issues"
+  },
+  "homepage": "https://github.com/Shatterproofhq/boilerplate#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.5",
+    "gulp": "^3.9.1",
+    "node-bourbon": "^4.2.8",
+    "node-neat": "^1.7.2"
+  }
+}

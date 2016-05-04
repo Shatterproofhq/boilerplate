@@ -1,0 +1,15 @@
+// To use for new-breakpoint()
+@import "neat-helpers";
+
+// Display visual grid
+$visual-grid: true !global;
+
+// Visual grid colour
+$visual-grid-color: #d5eefb !global;
+
+// Visual grid opacity
+$visual-grid-opacity: 0.4;
+
+// Define your breakpoints
+$tablet: new-breakpoint(max-width 768px 8);
+$mobile: new-breakpoint(max-width 480px 4);
