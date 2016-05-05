@@ -1,0 +1,33 @@
+//Import Google fonts
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic);
+@import url(https://cloud.typography.com/7699332/6495752/css/fonts.css);
+
+/* Tungsten Book */
+@font-face {
+  font-family: "Tungsten A", "Tungsten B";
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Tungsten Bold */
+@font-face {
+  font-family: "Tungsten A", "Tungsten B";
+  font-style: normal;
+  font-weight: 700;
+}
+
+$font-family: 'Arvo', $georgia;
+$primary-title: "Tungsten A", "Tungsten B";
+
+body {
+   font-family: $font-family;
+}
+
+h1 {
+  font-family: $primary-title;
+}
+
+//Custom colors
+$primary-color: #00EBCA;
+$secondary-color: #808080;
+$tertiary-color: #FF6600;

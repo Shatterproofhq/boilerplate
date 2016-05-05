@@ -1,6 +1,7 @@
 @import "bourbon";
 @import "grid-settings";
 @import "neat";
+@import "variables";
 
 .main{
     @include outer-container();
@@ -9,7 +10,7 @@
 .top-row{
     @include span-columns(12);
 }
-
+//For development purpose
 .red{
     background-color: red;
     @include span-columns(4 of 12);
@@ -52,7 +53,3 @@
     @include span-columns(12);
   }
 }
-
-button {
-    @include button(#ff9647);
-  }
