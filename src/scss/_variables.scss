@@ -19,15 +19,16 @@
 $font-family: 'Arvo', $georgia;
 $primary-title: "Tungsten A", "Tungsten B";
 
+//Custom colors
+$primary-color: #00EBCA;
+$secondary-color: #808080;
+$tertiary-color: #FF6600;
+
 body {
    font-family: $font-family;
 }
 
 h1 {
   font-family: $primary-title;
+  color: $primary-color;
 }
-
-//Custom colors
-$primary-color: #00EBCA;
-$secondary-color: #808080;
-$tertiary-color: #FF6600;

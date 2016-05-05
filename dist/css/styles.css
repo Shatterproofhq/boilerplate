@@ -55,7 +55,8 @@ body {
   font-family: "Arvo", "Georgia", "Cambria", "Times New Roman", "Times", serif; }
 
 h1 {
-  font-family: "Tungsten A", "Tungsten B"; }
+  font-family: "Tungsten A", "Tungsten B";
+  color: #00EBCA; }
 
 .main {
   max-width: 68em;
